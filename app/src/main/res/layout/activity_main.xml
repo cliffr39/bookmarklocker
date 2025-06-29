@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_main.xml: The main layout for the Bookmark Locker application.
+     It uses a ConstraintLayout to arrange the NavHostFragment and a BottomNavigationView.
+     The NavHostFragment will display the content of different fragments (Bookmarks, Collections, Settings).
+     The BottomNavigationView allows users to easily switch between these main sections. -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bookmarklocker.MainActivity">
+
+    <!-- NavHostFragment: This container hosts the navigation graph.
+         Fragments defined in the navigation graph will be swapped in and out here.
+         It's set to fill the space above the bottom navigation bar. -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_nav_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" /> <!-- This links to our navigation graph -->
+
+    <!-- BottomNavigationView: Provides a persistent navigation bar at the bottom of the screen.
+         It allows users to quickly switch between top-level destinations (Bookmarks, Collections, Settings).
+         It's styled with Material Design and uses the 'bottom_nav_menu' for its items. -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" /> <!-- This links to our bottom navigation menu -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

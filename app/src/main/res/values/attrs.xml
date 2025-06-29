@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- attrs.xml: Defines custom attributes for the Bookmark Locker application. -->
+<resources>
+    <!-- Custom attribute for collection stroke color -->
+    <attr name="collectionStrokeColor" format="color" />
+</resources> 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- circle_color_selector.xml: Defines a drawable for the color selection RadioButtons.
+     It creates a simple circle shape. The line indicator under each circle
+     will now provide the visual feedback for selection. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Default state for the RadioButton -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="?attr/backgroundTint" /> <!-- Use backgroundTint from the RadioButton -->
+            <size android:width="40dp" android:height="40dp" />
+        </shape>
+    </item>
+</selector>

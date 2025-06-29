@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- themes.xml (Night Mode): Overrides for the dark theme.
+     This file is specifically for night mode (dark theme) and should mirror
+     themes.xml but with colors optimized for dark backgrounds. -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.BookmarkLocker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/material_dynamic_primary80</item>
+        <item name="colorPrimaryVariant">@color/material_dynamic_primary90</item>
+        <item name="colorOnPrimary">@color/material_dynamic_primary20</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/material_dynamic_secondary80</item>
+        <item name="colorSecondaryVariant">@color/material_dynamic_secondary90</item>
+        <item name="colorOnSecondary">@color/material_dynamic_secondary20</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/material_dynamic_neutral10</item>
+        <!-- Text input layout default style -->
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        <!-- Button styles -->
+        <item name="materialButtonStyle">@style/Widget.MaterialComponents.Button</item>
+        <!-- Collection stroke color for dark mode -->
+        <item name="collectionStrokeColor">@color/collection_stroke_dark</item>
+    </style>
+
+    <!-- Custom stroke color for collection items in dark mode -->
+    <color name="collection_stroke_dark">@color/material_dynamic_neutral_variant20</color>
+
+</resources>

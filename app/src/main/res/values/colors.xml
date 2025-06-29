@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- colors.xml: Defines custom color resources for the Bookmark Locker application.
+     These colors are used throughout the UI to maintain a consistent and appealing theme.
+     The color names follow a Material Design convention for easy understanding. -->
+<resources>
+    <!-- Basic Palette -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="orange">#FFA500</color>
+    <color name="purple">#800080</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="gray">#808080</color>
+
+    <!-- Material Design Dynamic Colors (Examples - adjust as needed or use real dynamic colors) -->
+    <!-- These are placeholders approximating a Material Design 3 palette.
+         For actual dynamic colors, you'd typically use a theming library or Android 12+ dynamic color capabilities. -->
+
+    <!-- Primary Colors -->
+    <color name="material_dynamic_primary0">#000000</color>
+    <color name="material_dynamic_primary10">#001C3B</color>
+    <color name="material_dynamic_primary20">#003160</color>
+    <color name="material_dynamic_primary30">#004987</color>
+    <color name="material_dynamic_primary40">#0062AD</color> <!-- Main Primary Color (Blue) -->
+    <color name="material_dynamic_primary50">#2B7CC5</color>
+    <color name="material_dynamic_primary60">#5397E1</color>
+    <color name="material_dynamic_primary70">#7CB1ED</color>
+    <color name="material_dynamic_primary80">#A5CBFF</color>
+    <color name="material_dynamic_primary90">#D2E4FF</color>
+    <color name="material_dynamic_primary95">#E9F1FF</color>
+    <color name="material_dynamic_primary99">#FDFCFF</color>
+    <color name="collection_stroke_dark">#646A70</color>
+
+    <!-- Secondary Colors -->
+    <color name="material_dynamic_secondary0">#000000</color>
+    <color name="material_dynamic_secondary10">#131D2A</color>
+    <color name="material_dynamic_secondary20">#29323F</color>
+    <color name="material_dynamic_secondary30">#404856</color>
+    <color name="material_dynamic_secondary40">#575F6E</color> <!-- Main Secondary Color (Yellow/Grey-ish) -->
+    <color name="material_dynamic_secondary50">#707787</color>
+    <color name="material_dynamic_secondary60">#89919E</color>
+    <color name="material_dynamic_secondary70">#A4AAB9</color>
+    <color name="material_dynamic_secondary80">#C0C7D5</color>
+    <color name="material_dynamic_secondary90">#DCDFEF</color>
+    <color name="material_dynamic_secondary95">#EDEFFC</color>
+    <color name="material_dynamic_secondary99">#FCFCFF</color>
+
+    <!-- Tertiary Colors -->
+    <color name="material_dynamic_tertiary0">#000000</color>
+    <color name="material_dynamic_tertiary10">#2C002B</color>
+    <color name="material_dynamic_tertiary20">#471345</color>
+    <color name="material_dynamic_tertiary30">#632B61</color>
+    <color name="material_dynamic_tertiary40">#7F437C</color> <!-- Main Tertiary Color (Green) -->
+    <color name="material_dynamic_tertiary50">#9B5DA4</color>
+    <color name="material_dynamic_tertiary60">#BB78C6</color>
+    <color name="material_dynamic_tertiary70">#DB93E7</color>
+    <color name="material_dynamic_tertiary80">#FBCFFF</color>
+    <color name="material_dynamic_tertiary90">#FFD6FA</color>
+    <color name="material_dynamic_tertiary95">#FFEAFA</color>
+    <color name="material_dynamic_tertiary99">#FFFBFF</color>
+
+    <!-- Neutral Colors -->
+    <color name="material_dynamic_neutral0">#000000</color>
+    <color name="material_dynamic_neutral10">#191C1E</color>
+    <color name="material_dynamic_neutral20">#2D3133</color>
+    <color name="material_dynamic_neutral30">#434749</color>
+    <color name="material_dynamic_neutral40">#5A5F61</color> <!-- Main Neutral Color -->
+    <color name="material_dynamic_neutral50">#73777A</color>
+    <color name="material_dynamic_neutral60">#8D9194</color>
+    <color name="material_dynamic_neutral70">#A7ABB0</color>
+    <color name="material_dynamic_neutral80">#C3C7C9</color>
+    <color name="material_dynamic_neutral90">#DFE3E6</color>
+    <color name="material_dynamic_neutral95">#EFF1F4</color>
+    <color name="material_dynamic_neutral99">#FBFBFC</color>
+
+    <!-- Neutral Variant Colors (for surfaces, backgrounds etc.) -->
+    <color name="material_dynamic_neutral_variant0">#000000</color>
+    <color name="material_dynamic_neutral_variant10">#1F2528</color>
+    <color name="material_dynamic_neutral_variant20">#353B40</color>
+    <color name="material_dynamic_neutral_variant30">#4C5258</color>
+    <color name="material_dynamic_neutral_variant40">#646A70</color>
+    <color name="material_dynamic_neutral_variant50">#7D838A</color>
+    <color name="material_dynamic_neutral_variant60">#979DA4</color>
+    <color name="material_dynamic_neutral_variant70">#B2B8BE</color>
+    <color name="material_dynamic_neutral_variant80">#CDD4DA</color>
+    <color name="material_dynamic_neutral_variant90">#E8EFF5</color>
+    <color name="material_dynamic_neutral_variant95">#F1F5F9</color>
+    <color name="material_dynamic_neutral_variant99">#FBFBFC</color>
+
+    <!-- Error Colors -->
+    <color name="material_dynamic_error0">#000000</color>
+    <color name="material_dynamic_error10">#410002</color>
+    <color name="material_dynamic_error20">#690005</color>
+    <color name="material_dynamic_error30">#8C0009</color>
+    <color name="material_dynamic_error40">#BA1A1A</color>
+    <color name="material_dynamic_error50">#DE372B</color>
+    <color name="material_dynamic_error60">#FF5449</color>
+    <color name="material_dynamic_error70">#FF897D</color>
+    <color name="material_dynamic_error80">#FFB4AB</color>
+    <color name="material_dynamic_error90">#FFDAD6</color>
+    <color name="material_dynamic_error95">#FFEDE9</color>
+    <color name="material_dynamic_error99">#FFFBF9</color>
+
+    <color name="glass_white_80">#CCFFFFFF</color>
+
+    <color name="bookmark_selected_bg">#3399FF</color>
+
+    <color name="bookmark_card_bg">#FFFFFF</color>
+    <color name="bookmark_title_dark">#111111</color>
+    <color name="bookmark_url_dark">#444444</color>
+
+    <color name="theme_dialog_bg">#F5F7FA</color>
+
+    <color name="settings_section_header">#001C3B</color>
+
+    <color name="theme_dialog_text">#001C3B</color>
+</resources>

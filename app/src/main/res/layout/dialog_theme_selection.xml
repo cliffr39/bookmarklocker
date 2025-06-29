@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- dialog_theme_selection.xml: Layout for the Theme Selection Dialog Fragment.
+     This dialog allows users to choose between Light Mode, Dark Mode, and System Default themes. -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/theme_dialog_bg">
+
+    <!-- Dialog Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/theme_settings"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/theme_dialog_text"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Light Mode Option -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_light_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/light_mode"
+        android:layout_marginBottom="8dp"
+        app:cornerRadius="8dp"
+        app:icon="@android:drawable/ic_menu_view"
+        app:iconTint="@color/material_dynamic_primary40"
+        android:backgroundTint="@color/material_dynamic_neutral90"
+        android:textColor="@color/theme_dialog_text"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+    <!-- Dark Mode Option -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_dark_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dark_mode"
+        android:layout_marginBottom="8dp"
+        app:cornerRadius="8dp"
+        app:icon="@android:drawable/ic_menu_view"
+        app:iconTint="@color/material_dynamic_primary40"
+        android:backgroundTint="@color/material_dynamic_neutral90"
+        android:textColor="@color/theme_dialog_text"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+    <!-- System Default Option -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_system_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/system_default"
+        android:layout_marginBottom="24dp"
+        app:cornerRadius="8dp"
+        app:icon="@android:drawable/ic_menu_view"
+        app:iconTint="@color/material_dynamic_primary40"
+        android:backgroundTint="@color/material_dynamic_neutral90"
+        android:textColor="@color/theme_dialog_text"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+    <!-- Cancel Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:layout_gravity="end"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:textColor="@color/theme_dialog_text" />
+
+</LinearLayout> 

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds -->
+    <color name="material_dynamic_neutral_variant95">#181A20</color> <!-- Main background, very dark -->
+    <color name="material_dynamic_neutral_variant80">#23252B</color> <!-- Card background, dark -->
+    <color name="material_dynamic_neutral_variant60">#AAAAAA</color> <!-- Divider, medium dark -->
+    <color name="material_dynamic_neutral_variant50">#AAAAAA</color> <!-- Secondary text, lighter dark -->
+    <color name="material_dynamic_neutral10">#121212</color> <!-- Deepest background -->
+    <color name="material_dynamic_neutral40">#CCCCCC</color> <!-- For text on dark backgrounds -->
+
+    <!-- Primary colors -->
+    <color name="material_dynamic_primary10">#FFFFFF</color> <!-- Main text color, white -->
+    <color name="material_dynamic_primary20">#E0E0E0</color>
+    <color name="material_dynamic_primary40">#448AFF</color> <!-- Accent/primary button color -->
+    <color name="material_dynamic_primary80">#90CAF9</color>
+    <color name="material_dynamic_primary90">#BBDEFB</color>
+
+    <!-- Secondary colors -->
+    <color name="material_dynamic_secondary20">#E0E0E0</color>
+    <color name="material_dynamic_secondary40">#80CBC4</color>
+    <color name="material_dynamic_secondary80">#4DB6AC</color>
+    <color name="material_dynamic_secondary90">#26A69A</color>
+
+    <!-- Error colors -->
+    <color name="material_dynamic_error40">#FF5252</color>
+
+    <!-- White for icons/text on primary -->
+    <color name="white">#FFFFFF</color>
+
+    <color name="bookmark_card_bg">#FFFFFF</color>
+    <color name="bookmark_title_dark">#111111</color>
+    <color name="bookmark_url_dark">#444444</color>
+
+    <color name="theme_dialog_bg">#23252B</color>
+    <color name="theme_dialog_text">#FFFFFF</color>
+
+    <color name="settings_section_header">#FFFFFF</color>
+</resources> 

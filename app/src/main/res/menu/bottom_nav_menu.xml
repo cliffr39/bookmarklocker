@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- bottom_nav_menu.xml: Defines the menu items for the BottomNavigationView.
+     Each item corresponds to a destination in our navigation graph, allowing
+     users to switch between Bookmarks, Collections, and Settings. -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Bookmarks Menu Item -->
+    <item
+        android:id="@+id/bookmarksFragment"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/title_bookmarks" />
+
+    <!-- Collections Menu Item -->
+    <item
+        android:id="@+id/collectionsFragment"
+        android:icon="@android:drawable/ic_menu_slideshow"
+        android:title="@string/title_collections" />
+
+    <!-- Settings Menu Item -->
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/title_settings" />
+
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- chip_tag.xml: Layout for a single tag chip displayed within the FlexboxLayout.
+     This provides a visually distinct and tappable representation for each tag. -->
+<com.google.android.material.chip.Chip
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:checkable="false"
+    android:clickable="false"
+    android:focusable="false"
+    style="@style/Widget.MaterialComponents.Chip.Entry"
+    app:chipBackgroundColor="@color/material_dynamic_neutral80"
+    android:textColor="@color/material_dynamic_primary10"
+    app:chipCornerRadius="8dp"
+    app:chipMinHeight="32dp" />

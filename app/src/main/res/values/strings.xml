@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- strings.xml: Contains all the localized string resources for the Bookmark Locker application.
+     This centralizes text content, making it easier to manage and translate the app.
+     Updated in Step 7 for adding tag management strings. -->
+<resources>
+    <string name="app_name">Bookmark Locker</string>
+
+    <!-- Bottom Navigation Titles -->
+    <string name="title_bookmarks">Bookmarks</string>
+    <string name="title_collections">Collections</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- Bookmark Fragment Strings -->
+    <string name="no_bookmarks_yet">No bookmarks yet. Tap + to add one!</string>
+    <string name="add_bookmark_description">Add new bookmark</string>
+    <string name="more_options_description">More options for bookmark</string>
+    <string name="share_bookmark_via">Share bookmark via</string>
+    <string name="error_opening_url">Could not open URL: %s</string>
+    <string name="bookmark_deleted">Bookmark "%s" deleted.</string>
+    <string name="delete_cancelled">Deletion cancelled.</string>
+    <string name="confirm_delete_title">Confirm Deletion</string>
+    <string name="confirm_delete_message">Are you sure you want to delete "%s"? This action cannot be undone.</string>
+
+    <!-- Add/Edit Bookmark Dialog Strings -->
+    <string name="add_new_bookmark">Add New Bookmark</string>
+    <string name="edit_bookmark">Edit Bookmark</string>
+    <string name="hint_url">URL (e.g., https://www.example.com)</string>
+    <string name="hint_title">Title (Optional)</string>
+    <string name="hint_notes">Notes (Optional)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="tags_label">Tags:</string>
+    <string name="hint_add_tag">Add a tag (e.g., work, personal)</string>
+    <string name="add_tag_description">Add tag</string>
+    <string name="tag_added">Tag "%s" added.</string>
+    <string name="tag_removed">Tag "%s" removed.</string>
+    <string name="tag_already_exists">Tag "%s" already exists.</string>
+    <string name="remove_tag_description">Remove tag "%s"</string>
+    <string name="collection_label">Collection:</string>
+    <string name="no_collection_option">No Collection</string>
+    <string name="bookmark_saved">Bookmark saved successfully!</string>
+    <string name="bookmark_updated">Bookmark updated successfully!</string>
+
+
+    <!-- Collections Fragment Strings -->
+    <string name="no_collections_yet">No collections yet. Tap + to create one!</string>
+    <string name="add_collection_description">Add new collection</string>
+    <string name="folder_icon_description">Folder icon for collection</string>
+    <string name="edit_collection_description">Edit collection</string>
+    <string name="add_new_collection">Add New Collection</string>
+    <string name="edit_collection">Edit Collection</string>
+    <string name="hint_collection_name">Collection Name</string>
+    <string name="choose_color">Choose Color:</string>
+    <string name="color_blue_description">Blue color option</string>
+    <string name="color_green_description">Green color option</string>
+    <string name="color_red_description">Red color option</string>
+    <string name="color_yellow_description">Yellow color option</string>
+    <string name="color_purple_description">Purple color option</string>
+
+
+    <!-- Settings Fragment Strings -->
+    <string name="data_management_header">Data Management</string>
+    <string name="backup_data">Backup Data</string>
+    <string name="restore_data">Restore Data</string>
+    <string name="tag_management_header">Tag Management</string>
+    <string name="manage_tags">Manage Tags</string>
+    <string name="title_manage_tags">Manage Tags</string>
+    <string name="no_tags_yet">No tags yet. Add tags through bookmarks or tap + to manage.</string>
+    <string name="add_new_tag_description">Add new tag</string>
+    <string name="add_new_tag">Add New Tag</string>
+    <string name="hint_tag_name">Tag Name</string>
+    <string name="appearance_header">Appearance</string>
+    <string name="theme_settings">Theme Settings</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="system_default">System Default</string>
+    <string name="theme_changed">Theme changed successfully</string>
+
+
+    <!-- Generic Actions -->
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_share">Share</string>
+
+</resources>

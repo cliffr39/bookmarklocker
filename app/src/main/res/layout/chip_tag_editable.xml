@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- chip_tag_editable.xml: Layout for an editable tag chip in the TagsManagementFragment.
+     This provides a chip with a close icon for removing tags and allows editing. -->
+<com.google.android.material.chip.Chip
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="8dp"
+    android:checkable="false"
+    android:clickable="true"
+    android:focusable="true"
+    style="@style/Widget.MaterialComponents.Chip.Entry"
+    app:chipBackgroundColor="@color/material_dynamic_neutral80"
+    android:textColor="@color/material_dynamic_primary10"
+    app:chipCornerRadius="8dp"
+    app:chipMinHeight="32dp"
+    app:closeIconVisible="true"
+    app:closeIcon="@android:drawable/ic_menu_delete"
+    app:closeIconTint="@color/material_dynamic_error40" /> 
